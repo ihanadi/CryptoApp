@@ -34,7 +34,7 @@ const App = () => {
         </Layout>
         <div className="footer">
           <Typography.Title level={5} style={{color: 'white', textAlign:'center'}} className="footerTitle">
-            Cryptocurrency <br />
+            Cryptocurrency test <br />
             All rights reserved. Created by <a target="_blank" rel="noreferrer" href="https://github.com/ihanadi">Ismail Hanadi</a>
           </Typography.Title>
           <Space>
