@@ -161,7 +161,7 @@ a:hover{
 
 .stats-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 40px;
 }
@@ -368,6 +368,7 @@ width: 70%;
 .select-timeperiod{
     width: 200px !important;
     margin-top: 20px !important;
+    
 }
 
 .footer {
