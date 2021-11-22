@@ -26,11 +26,10 @@ function Exchanges() {
       <Row>
         {exchangesList.map((exchange) => (
           <Col span={24}>
-            <Collapse>
+            <Collapse style={{display:"block"}}>
               <Panel
                 key={exchange.id}
                 showArrow={false}
-                style={{display:"block"}}
                 header={(
                   <Row key={exchange.id}>
                     <Col span={6}>
