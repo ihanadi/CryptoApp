@@ -30,7 +30,6 @@ function Exchanges() {
               <Panel
                 key={exchange.id}
                 showArrow={false}
-                style={{flexDirection: "column", alignItems: "stretch"}}
                 header={(
                   <Row key={exchange.id}>
                     <Col span={6}>
